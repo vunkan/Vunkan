@@ -1,2 +1,2 @@
 setup:
-	npm install
+	./scripts/setup.sh
