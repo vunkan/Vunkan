@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B5EB773B2E1E7E2E00EF35EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5EB77242E1E7E2C00EF35EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5EB772B2E1E7E2C00EF35EF;
+			remoteInfo = Vunkan;
+		};
+		B5EB77452E1E7E2E00EF35EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5EB77242E1E7E2C00EF35EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5EB772B2E1E7E2C00EF35EF;
+			remoteInfo = Vunkan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5EB772C2E1E7E2C00EF35EF /* Vunkan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vunkan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EB773A2E1E7E2E00EF35EF /* VunkanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VunkanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EB77442E1E7E2E00EF35EF /* VunkanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VunkanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B5EB772E2E1E7E2C00EF35EF /* Vunkan */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Vunkan;
+			sourceTree = "<group>";
+		};
+		B5EB773D2E1E7E2E00EF35EF /* VunkanTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VunkanTests;
+			sourceTree = "<group>";
+		};
+		B5EB77472E1E7E2E00EF35EF /* VunkanUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VunkanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5EB77292E1E7E2C00EF35EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EB77372E1E7E2E00EF35EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EB77412E1E7E2E00EF35EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5EB77232E1E7E2C00EF35EF = {
+			isa = PBXGroup;
+			children = (
+				B5EB772E2E1E7E2C00EF35EF /* Vunkan */,
+				B5EB773D2E1E7E2E00EF35EF /* VunkanTests */,
+				B5EB77472E1E7E2E00EF35EF /* VunkanUITests */,
+				B5EB772D2E1E7E2C00EF35EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5EB772D2E1E7E2C00EF35EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5EB772C2E1E7E2C00EF35EF /* Vunkan.app */,
+				B5EB773A2E1E7E2E00EF35EF /* VunkanTests.xctest */,
+				B5EB77442E1E7E2E00EF35EF /* VunkanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5EB772B2E1E7E2C00EF35EF /* Vunkan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EB774E2E1E7E2E00EF35EF /* Build configuration list for PBXNativeTarget "Vunkan" */;
+			buildPhases = (
+				B5EB77282E1E7E2C00EF35EF /* Sources */,
+				B5EB77292E1E7E2C00EF35EF /* Frameworks */,
+				B5EB772A2E1E7E2C00EF35EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B5EB772E2E1E7E2C00EF35EF /* Vunkan */,
+			);
+			name = Vunkan;
+			packageProductDependencies = (
+			);
+			productName = Vunkan;
+			productReference = B5EB772C2E1E7E2C00EF35EF /* Vunkan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5EB77392E1E7E2E00EF35EF /* VunkanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EB77512E1E7E2E00EF35EF /* Build configuration list for PBXNativeTarget "VunkanTests" */;
+			buildPhases = (
+				B5EB77362E1E7E2E00EF35EF /* Sources */,
+				B5EB77372E1E7E2E00EF35EF /* Frameworks */,
+				B5EB77382E1E7E2E00EF35EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5EB773C2E1E7E2E00EF35EF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B5EB773D2E1E7E2E00EF35EF /* VunkanTests */,
+			);
+			name = VunkanTests;
+			packageProductDependencies = (
+			);
+			productName = VunkanTests;
+			productReference = B5EB773A2E1E7E2E00EF35EF /* VunkanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5EB77432E1E7E2E00EF35EF /* VunkanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EB77542E1E7E2E00EF35EF /* Build configuration list for PBXNativeTarget "VunkanUITests" */;
+			buildPhases = (
+				B5EB77402E1E7E2E00EF35EF /* Sources */,
+				B5EB77412E1E7E2E00EF35EF /* Frameworks */,
+				B5EB77422E1E7E2E00EF35EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5EB77462E1E7E2E00EF35EF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B5EB77472E1E7E2E00EF35EF /* VunkanUITests */,
+			);
+			name = VunkanUITests;
+			packageProductDependencies = (
+			);
+			productName = VunkanUITests;
+			productReference = B5EB77442E1E7E2E00EF35EF /* VunkanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5EB77242E1E7E2C00EF35EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					B5EB772B2E1E7E2C00EF35EF = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					B5EB77392E1E7E2E00EF35EF = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B5EB772B2E1E7E2C00EF35EF;
+					};
+					B5EB77432E1E7E2E00EF35EF = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B5EB772B2E1E7E2C00EF35EF;
+					};
+				};
+			};
+			buildConfigurationList = B5EB77272E1E7E2C00EF35EF /* Build configuration list for PBXProject "Vunkan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5EB77232E1E7E2C00EF35EF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B5EB772D2E1E7E2C00EF35EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5EB772B2E1E7E2C00EF35EF /* Vunkan */,
+				B5EB77392E1E7E2E00EF35EF /* VunkanTests */,
+				B5EB77432E1E7E2E00EF35EF /* VunkanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5EB772A2E1E7E2C00EF35EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EB77382E1E7E2E00EF35EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EB77422E1E7E2E00EF35EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5EB77282E1E7E2C00EF35EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EB77362E1E7E2E00EF35EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EB77402E1E7E2E00EF35EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5EB773C2E1E7E2E00EF35EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5EB772B2E1E7E2C00EF35EF /* Vunkan */;
+			targetProxy = B5EB773B2E1E7E2E00EF35EF /* PBXContainerItemProxy */;
+		};
+		B5EB77462E1E7E2E00EF35EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5EB772B2E1E7E2C00EF35EF /* Vunkan */;
+			targetProxy = B5EB77452E1E7E2E00EF35EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5EB774C2E1E7E2E00EF35EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6KW9R4V4F7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5EB774D2E1E7E2E00EF35EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6KW9R4V4F7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B5EB774F2E1E7E2E00EF35EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vunkan/Vunkan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW9R4V4F7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.vunkan.Vunkan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B5EB77502E1E7E2E00EF35EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vunkan/Vunkan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW9R4V4F7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.vunkan.Vunkan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B5EB77522E1E7E2E00EF35EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW9R4V4F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.vunkan.VunkanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vunkan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vunkan";
+			};
+			name = Debug;
+		};
+		B5EB77532E1E7E2E00EF35EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW9R4V4F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.vunkan.VunkanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vunkan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vunkan";
+			};
+			name = Release;
+		};
+		B5EB77552E1E7E2E00EF35EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW9R4V4F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.vunkan.VunkanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Vunkan;
+			};
+			name = Debug;
+		};
+		B5EB77562E1E7E2E00EF35EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW9R4V4F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.vunkan.VunkanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Vunkan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5EB77272E1E7E2C00EF35EF /* Build configuration list for PBXProject "Vunkan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EB774C2E1E7E2E00EF35EF /* Debug */,
+				B5EB774D2E1E7E2E00EF35EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EB774E2E1E7E2E00EF35EF /* Build configuration list for PBXNativeTarget "Vunkan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EB774F2E1E7E2E00EF35EF /* Debug */,
+				B5EB77502E1E7E2E00EF35EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EB77512E1E7E2E00EF35EF /* Build configuration list for PBXNativeTarget "VunkanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EB77522E1E7E2E00EF35EF /* Debug */,
+				B5EB77532E1E7E2E00EF35EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EB77542E1E7E2E00EF35EF /* Build configuration list for PBXNativeTarget "VunkanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EB77552E1E7E2E00EF35EF /* Debug */,
+				B5EB77562E1E7E2E00EF35EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5EB77242E1E7E2C00EF35EF /* Project object */;
+}
